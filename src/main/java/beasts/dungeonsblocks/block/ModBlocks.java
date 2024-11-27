@@ -20,6 +20,11 @@ public class ModBlocks {
 //                    .requiresTool()
 //                    .sounds(BlockSoundGroup.AMETHYST_BLOCK)
 //            ));
+    public static final Block PRISMARINE_SCALES_BLOCK = registerBlock("prismarine_scales",
+        new Block(AbstractBlock.Settings.create()
+                .strength(4f)
+                .requiresTool()
+                ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

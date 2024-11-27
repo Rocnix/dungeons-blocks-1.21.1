@@ -16,9 +16,10 @@ public class ModItemGroups {
             Identifier.of(DungeonsBlocks.MOD_ID, "squid_coast_items"),
             FabricItemGroup.builder()
 //                  .icon(() -> new ItemStack(ModItems.PINK_GARNET))
-                    .displayName(Text.translatable("itemgroup.dungeonsblocks.squid_coast_items"))
+                    .displayName(Text.translatable("itemgroup.dungeons_blocks.squid_coast_items"))
                     .entries((displayContext, entries) -> {
 //                        entries.add(ModItems.PINK_GARNET);
+                        entries.add(ModBlocks.PRISMARINE_SCALES_BLOCK);
                     }).build());
 
 
