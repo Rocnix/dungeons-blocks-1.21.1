@@ -81,6 +81,48 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE) // defaults to stone
             ));
+    public static final Block CHISELED_BLEACHED_STONE_BRICKS = registerBlock("chiseled_bleached_stone_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CHISELED_GRANITE_BRICKS = registerBlock("chiseled_granite_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CARVED_PRISMARINE_BRICKS = registerBlock("carved_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CRACKED_GRANITE_BRICKS = registerBlock("cracked_granite_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block GRANITE_BRICKS = registerBlock("granite_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block MOSSY_CHISELED_BLEACHED_STONE_BRICKS = registerBlock("mossy_chiseled_bleached_stone_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block DARK_PRISMARINE_FLOOR = registerBlock("dark_prismarine_floor",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
