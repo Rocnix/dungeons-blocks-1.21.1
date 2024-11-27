@@ -18,6 +18,15 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_SCALES_BLOCK);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEACHED_STONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_BOOKSHELF);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_KEYSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_PILLAR);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF_VINE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMALL_GRANITE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMALL_PRISMARINE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_CORAL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_SEALEAF);
     }
 
     @Override

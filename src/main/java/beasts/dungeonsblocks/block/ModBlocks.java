@@ -27,6 +27,60 @@ public class ModBlocks {
             .requiresTool()
             .sounds(BlockSoundGroup.STONE) // defaults to stone
         ));
+    public static final Block PRISMARINE_BOOKSHELF = registerBlock("prismarine_bookshelf",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block PRISMARINE_KEYSTONE = registerBlock("prismarine_keystone",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block PRISMARINE_PILLAR = registerBlock("prismarine_pillar",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block SEALEAF = registerBlock("sealeaf",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block SEALEAF_VINE = registerBlock("sealeaf_vine",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block SMALL_GRANITE_BRICKS = registerBlock("small_granite_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block SMALL_PRISMARINE_BRICKS = registerBlock("small_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block TALL_CORAL = registerBlock("tall_coral",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block TALL_SEALEAF = registerBlock("tall_sealeaf",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
