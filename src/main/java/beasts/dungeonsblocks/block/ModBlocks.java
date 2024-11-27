@@ -14,6 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+// ooo look at me, im learning how to comment <3
+
 //    public static final Block PINK_GARNET_BLOCK = registerBlock("pink_garnet_block",
 //            new Block(AbstractBlock.Settings.create()
 //                    .strength(4f)
