@@ -18,8 +18,23 @@ public class ModItemGroups {
 //                  .icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.dungeons_blocks.squid_coast_items"))
                     .entries((displayContext, entries) -> {
-//                        entries.add(ModItems.PINK_GARNET);
                         entries.add(ModBlocks.PRISMARINE_SCALES_BLOCK);
+                        entries.add(ModBlocks.BLEACHED_STONE_BRICKS);
+                        entries.add(ModBlocks.PRISMARINE_BOOKSHELF);
+                        entries.add(ModBlocks.PRISMARINE_KEYSTONE);
+                        entries.add(ModBlocks.PRISMARINE_PILLAR);
+                        entries.add(ModBlocks.SEALEAF);
+                        entries.add(ModBlocks.SEALEAF_VINE);
+                        entries.add(ModBlocks.SMALL_GRANITE_BRICKS);
+                        entries.add(ModBlocks.SMALL_PRISMARINE_BRICKS);
+                        entries.add(ModBlocks.TALL_CORAL);
+                        entries.add(ModBlocks.TALL_SEALEAF);
+                        entries.add(ModBlocks.CHISELED_BLEACHED_STONE_BRICKS);
+                        entries.add(ModBlocks.CARVED_PRISMARINE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_GRANITE_BRICKS);
+                        entries.add(ModBlocks.DARK_PRISMARINE_FLOOR);
+                        entries.add(ModBlocks.GRANITE_BRICKS);
+                        entries.add(ModBlocks.MOSSY_CHISELED_BLEACHED_STONE_BRICKS);
                     }).build());
 
 
