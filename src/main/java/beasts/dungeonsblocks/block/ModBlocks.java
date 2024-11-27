@@ -27,6 +27,9 @@ public class ModBlocks {
             .requiresTool()
             .sounds(BlockSoundGroup.STONE) // defaults to stone
         ));
+
+
+
     public static final Block PRISMARINE_BOOKSHELF = registerBlock("prismarine_bookshelf",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
