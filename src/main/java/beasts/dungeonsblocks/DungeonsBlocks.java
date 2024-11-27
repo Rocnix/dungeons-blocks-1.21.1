@@ -19,7 +19,7 @@ public class DungeonsBlocks implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		ModItems.registerModItems();
+		ModItems.registerModItems(); // no items yet
 		ModBlocks.registerModBlocks();
 	}
 }

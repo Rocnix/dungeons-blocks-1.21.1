@@ -10,22 +10,14 @@ import beasts.dungeonsblocks.DungeonsBlocks;
 
 public class ModItems {
 
-//    public static final Item PINK_GARNET = registerItem("pink_garnet", new Item(new Item.Settings()));
+//    public static final Item ITEM_NAME = registerItem("item_name", new Item(new Item.Settings()));
 
-    // helper method
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(DungeonsBlocks.MOD_ID, name), item);
     }
 
-    // method to call class
     public static void registerModItems() {
         DungeonsBlocks.LOGGER.info("Registering Mod Items for " + DungeonsBlocks.MOD_ID);
-
-        // add to creative item tab
-//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-//           entries.add(PINK_GARNET);
-//           entries.add(RAW_PINK_GARNET);
-//        });
     }
 
 }
