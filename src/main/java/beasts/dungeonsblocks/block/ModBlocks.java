@@ -14,13 +14,19 @@ public class ModBlocks {
 
 // ooo look at me, im learning how to comment <3
 
+
     public static final Block PRISMARINE_SCALES_BLOCK = registerBlock("prismarine_scales",
         new Block(AbstractBlock.Settings.create()
-                .strength(4f)
-                .requiresTool()
-                .sounds(BlockSoundGroup.STONE) // defaults to stone
-                ));
-
+            .strength(4f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE) // defaults to stone
+        ));
+    public static final Block BLEACHED_STONE_BRICKS = registerBlock("bleached_stone_bricks",
+        new Block(AbstractBlock.Settings.create()
+            .strength(4f)
+            .requiresTool()
+            .sounds(BlockSoundGroup.STONE) // defaults to stone
+        ));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
