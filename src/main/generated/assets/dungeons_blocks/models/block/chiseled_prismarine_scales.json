@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "dungeons_blocks:block/sealeaf_vine"
+    "all": "dungeons_blocks:block/chiseled_prismarine_scales"
   }
 }

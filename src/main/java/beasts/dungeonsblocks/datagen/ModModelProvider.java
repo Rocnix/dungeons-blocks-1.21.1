@@ -18,9 +18,9 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         // simple cubes
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLEACHED_STONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CARVED_PRISMARINE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_BLEACHED_STONE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_GRANITE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_PRISMARINE_SCALES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CRACKED_GRANITE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.DARK_PRISMARINE_FLOOR);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_BRICKS);
@@ -29,16 +29,23 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMALL_GRANITE_BRICKS);
 
         // complex cubes
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_BOOKSHELF);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_KEYSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_PILLAR);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMALL_PRISMARINE_BRICKS);
+        // commented out until we know how to work with them
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALT_BONE);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_PRISMARINE_BRICKS);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CORAL_GRASS);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_PILLAR);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRANITE_SCALES);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_BOOKSHELF);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_KEYSTONE);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_PILLAR);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SMALL_PRISMARINE_BRICKS);
 
         // plants
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF_VINE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_CORAL);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_SEALEAF);
+        // commented out until we know how to work with them
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SEALEAF_VINE);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_CORAL);
+//        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TALL_SEALEAF);
     }
 
     @Override

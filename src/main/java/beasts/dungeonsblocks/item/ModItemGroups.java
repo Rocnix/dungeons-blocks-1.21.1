@@ -30,7 +30,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TALL_CORAL);
                         entries.add(ModBlocks.TALL_SEALEAF);
                         entries.add(ModBlocks.CHISELED_BLEACHED_STONE_BRICKS);
-                        entries.add(ModBlocks.CARVED_PRISMARINE_BRICKS);
+                        entries.add(ModBlocks.CHISELED_PRISMARINE_SCALES);
                         entries.add(ModBlocks.CHISELED_GRANITE_BRICKS);
                         entries.add(ModBlocks.DARK_PRISMARINE_FLOOR);
                         entries.add(ModBlocks.GRANITE_BRICKS);

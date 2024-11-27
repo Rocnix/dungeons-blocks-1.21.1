@@ -21,12 +21,6 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.STONE) // defaults to stone
             ));
-    public static final Block CARVED_PRISMARINE_BRICKS = registerBlock("carved_prismarine_bricks",
-            new Block(AbstractBlock.Settings.create()
-                    .strength(4f)
-                    .requiresTool()
-                    .sounds(BlockSoundGroup.STONE) // defaults to stone
-            ));
     public static final Block CHISELED_BLEACHED_STONE_BRICKS = registerBlock("chiseled_bleached_stone_bricks",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
@@ -34,6 +28,12 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE) // defaults to stone
             ));
     public static final Block CHISELED_GRANITE_BRICKS = registerBlock("chiseled_granite_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CHISELED_PRISMARINE_SCALES = registerBlock("chiseled_prismarine_scales",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
                     .requiresTool()
@@ -78,7 +78,36 @@ public class ModBlocks {
 
 
     // complex cubes
-
+    public static final Block ALT_BONE = registerBlock("alt_bone",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CHISELED_PRISMARINE_BRICKS = registerBlock("chiseled_prismarine_bricks",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block CORAL_GRASS = registerBlock("coral_grass",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block GRANITE_PILLAR = registerBlock("granite_pillar",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
+    public static final Block GRANITE_SCALES = registerBlock("granite_scales",
+            new Block(AbstractBlock.Settings.create()
+                    .strength(4f)
+                    .requiresTool()
+                    .sounds(BlockSoundGroup.STONE) // defaults to stone
+            ));
     public static final Block PRISMARINE_BOOKSHELF = registerBlock("prismarine_bookshelf",
             new Block(AbstractBlock.Settings.create()
                     .strength(4f)
