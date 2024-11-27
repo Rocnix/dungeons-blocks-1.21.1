@@ -13,3 +13,5 @@ public class DungeonsBlocksDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(ModModelProvider::new);
 	}
 }
+
+// to run datagen, go to gradle -> tasks -> fabric -> runDatagen
