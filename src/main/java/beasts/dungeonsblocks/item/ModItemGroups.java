@@ -12,11 +12,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
 
-    public static final ItemGroup SQUID_COAST_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(DungeonsBlocks.MOD_ID, "squid_coast_items"),
+    public static final ItemGroup HIDDEN_DEPTHS_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(DungeonsBlocks.MOD_ID, "hidden_depths_items"),
             FabricItemGroup.builder()
-//                  .icon(() -> new ItemStack(ModItems.PINK_GARNET))
-                    .displayName(Text.translatable("itemgroup.dungeons_blocks.squid_coast_items"))
+                  .icon(() -> new ItemStack(ModBlocks.PRISMARINE_SCALES_BLOCK))
+                    .displayName(Text.translatable("itemgroup.dungeons_blocks.hidden_depths_items"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.PRISMARINE_SCALES_BLOCK);
                         entries.add(ModBlocks.BLEACHED_STONE_BRICKS);
