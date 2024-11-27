@@ -1,6 +1,7 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "dungeons_blocks:block/prismarine_bookshelf"
+    "end": "dungeons_blocks:block/prismarine_bookshelf_top",
+    "side": "dungeons_blocks:block/prismarine_bookshelf"
   }
 }
