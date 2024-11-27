@@ -15,10 +15,10 @@ public class ModItemGroups {
     public static final ItemGroup SQUID_COAST_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(DungeonsBlocks.MOD_ID, "squid_coast_items"),
             FabricItemGroup.builder()
-                    .icon(() -> new ItemStack(ModItems.PINK_GARNET))
+//                  .icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.dungeonsblocks.squid_coast_items"))
                     .entries((displayContext, entries) -> {
-                        entries.add(ModItems.PINK_GARNET);
+//                        entries.add(ModItems.PINK_GARNET);
                     }).build());
 
 
