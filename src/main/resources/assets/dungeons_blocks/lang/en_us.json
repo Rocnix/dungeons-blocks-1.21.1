@@ -4,5 +4,14 @@
 
 
   "block.dungeons_blocks.prismarine_scales": "Prismarine Scales",
-  "block.dungeons_blocks.bleached_stone_bricks": "Bleached Stone Bricks"
+  "block.dungeons_blocks.bleached_stone_bricks": "Bleached Stone Bricks",
+  "block.dungeons_blocks.carved_prismarine_bricks": "Carved Prismarine Bricks",
+  "blocks.dungeons_blocks.chiseled_bleached_stone_bricks": "Chiseled Bleached Stone Bricks",
+  "blocks.dungeons_blocks.chiseled_granite_bricks": "Chiseled Granite Bricks",
+  "blocks.dungeons_blocks.cracked_granite_bricks": "Cracked Granite Bricks",
+  "blocks.dungeons_blocks.dark_prismarine_floor": "Dark Prismarine Floor",
+  "blocks.dungeons_blocks.granite_bricks": "Granite Bricks",
+  "blocks.dungeons_blocks.mossy_chiseled_bleached_stone_bricks": "Mossy Chiseled Bleached Stone Bricks",
+  "blocks.dungeons_blocks.prismarine_bookshelf": "Prismarine Bookshelf",
+  "blocks.dungeons_blocks.small_granite_bricks": "Small Granite Bricks",
 }
