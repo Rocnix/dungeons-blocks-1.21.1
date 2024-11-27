@@ -13,6 +13,7 @@ public class ModModelProvider extends FabricModelProvider {
         super(output);
     }
 
+// testing a comment while working on things. how does this work out?
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PRISMARINE_SCALES_BLOCK);
