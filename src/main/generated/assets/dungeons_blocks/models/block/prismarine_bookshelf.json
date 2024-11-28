@@ -1,11 +1,7 @@
 {
-  "parent": "minecraft:block/cube",
+  "parent": "minecraft:block/cube_column_horizontal",
   "textures": {
-    "down": "dungeons_blocks:block/prismarine_bookshelf_top",
-    "up": "dungeons_blocks:block/prismarine_bookshelf_top",
-    "north": "dungeons_blocks:block/prismarine_bookshelf",
-    "east": "dungeons_blocks:block/prismarine_bookshelf",
-    "south": "dungeons_blocks:block/prismarine_bookshelf",
-    "west": "dungeons_blocks:block/prismarine_bookshelf"
+    "end": "dungeons_blocks:block/prismarine_bookshelf_top",
+    "side": "dungeons_blocks:block/prismarine_bookshelf"
   }
 }
